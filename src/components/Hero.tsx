@@ -97,7 +97,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenResume }) => {
               <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent z-10 pointer-events-none" />
 
               <img
-                src="/src/assets/images/hero_vasu_portrait_1793793275948.jpg"
+                src={profile.portrait}
                 alt="Vasu Verma - Class 12 Commerce Scholar and Aspiring Business Leader"
                 className="w-full h-[420px] sm:h-[480px] lg:h-[500px] object-cover object-top transition-transform duration-700 group-hover:scale-105"
                 referrerPolicy="no-referrer"

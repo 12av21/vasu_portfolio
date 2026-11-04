@@ -1,3 +1,10 @@
+import heroPortrait from '../assets/images/hero_vasu_portrait_1793793275948.jpg';
+import caseQuickCommerce from '../assets/images/case_quick_commerce_1793793276822.jpg';
+import caseAviation from '../assets/images/case_aviation_strategy_1793793277766.jpg';
+import blogMarkets from '../assets/images/blog_financial_markets_1793793277781.jpg';
+
+export { heroPortrait, caseQuickCommerce, caseAviation, blogMarkets };
+
 export interface CaseStudy {
   id: string;
   title: string;
@@ -57,6 +64,7 @@ export const PORTFOLIO_DATA = {
     school: 'Senior Secondary School (CBSE Board - Class 12 Commerce)',
     tagline: 'Bridging classroom financial principles with real-world venture scalability and unit economics.',
     bio: 'A passionate 12th Commerce student specializing in Accountancy, Business Studies, Economics, and Financial Mathematics. Actively building financial models, dissecting Indian startup unit economics, and leading high-school commerce initiatives with an ambition to pursue Global Business Administration & Venture Capital.',
+    portrait: heroPortrait,
     metrics: [
       { label: 'Academic Aggregate', value: '96.5%', note: 'Mid-Term Rank 1' },
       { label: 'Financial Models Built', value: '14+', note: 'BEP & Cash Flows' },
@@ -71,7 +79,7 @@ export const PORTFOLIO_DATA = {
       title: 'Zepto & The Unit Economics of 10-Minute Dark Stores',
       subtitle: 'Analyzing the path to Contribution Margin positive in urban grocery delivery',
       category: 'Unit Economics',
-      image: '/src/assets/images/case_quick_commerce_1793793276822.jpg',
+      image: caseQuickCommerce,
       readTime: '6 min read',
       summary: 'An empirical breakdown of dark-store micro-fulfillment economics, measuring how average order value (AOV) expansion and advertising revenue transform quick commerce from cash burner to sustainable retail.',
       problemStatement: 'High rider incentives, cold-chain replenishment losses, and low initial ticket sizes (₹320) historically produced -18% contribution margins across 10-minute grocery delivery hubs in Tier-1 cities.',
@@ -97,7 +105,7 @@ export const PORTFOLIO_DATA = {
       title: 'Tata & Air India: Vihaan.AI Transformation Blueprint',
       subtitle: 'Consolidating four legacy airlines into a world-class aviation powerhouse',
       category: 'Strategy & M&A',
-      image: '/src/assets/images/case_aviation_strategy_1793793277766.jpg',
+      image: caseAviation,
       readTime: '8 min read',
       summary: 'A strategic post-merger integration study evaluating how the Tata Group is navigating fleet renewal, culture re-engineering, and brand unification across Air India, Vistara, and AIX Connect.',
       problemStatement: 'Decades of government mismanagement left Air India with aging aircraft, fragmented inventory management, redundant ground systems, and negative operating cash flows.',
@@ -121,7 +129,7 @@ export const PORTFOLIO_DATA = {
       title: 'Zero to Shelf: Bootstrapping a Modern D2C Beverage',
       subtitle: 'A high-school incubator research project on bypassing FMCG slotting fees',
       category: 'Venture Creation',
-      image: '/src/assets/images/hero_vasu_portrait_1793793275948.jpg',
+      image: heroPortrait,
       readTime: '5 min read',
       summary: 'An entrepreneurial blueprint detailing how a new-age functional iced tea venture can achieve product-market fit using hyper-local college distribution before expanding to modern trade.',
       problemStatement: 'Established beverage conglomerates control shelf space through prohibitive slotting fees and distributor exclusivity, creating high barriers to entry for youth founders.',
@@ -150,7 +158,7 @@ export const PORTFOLIO_DATA = {
       readTime: '5 min read',
       category: 'Corporate Finance',
       excerpt: 'In Class 12 Accountancy, we master the Cash Flow Statement. In the startup world, understanding the Cash Conversion Cycle separates survivors from bankruptcy.',
-      image: '/src/assets/images/blog_financial_markets_1793793277781.jpg',
+      image: blogMarkets,
       content: [
         'A company can report stellar accounting net profits while standing on the brink of liquidation. This counter-intuitive reality is the Working Capital Trap, where rapid revenue growth sucks liquidity out of the business before receivables are collected.',
         'In the standard operating cycle (Days Sales of Inventory + Days Sales Outstanding - Days Payable Outstanding), every day that stock sits in a warehouse or an unpaid invoice languishes is funded directly by cash reserves or high-interest working capital credit lines.',
@@ -166,7 +174,7 @@ export const PORTFOLIO_DATA = {
       readTime: '6 min read',
       category: 'Consumer Tech',
       excerpt: 'Amazon, Flipkart, and Blinkit no longer make their primary margin solely from markups on goods. They monetize consumer search intent at the digital point of purchase.',
-      image: '/src/assets/images/case_quick_commerce_1793793276822.jpg',
+      image: caseQuickCommerce,
       content: [
         'When you search for "organic almond milk" on any delivery app, the top two results carry subtle "Sponsored" indicators. That micro-transaction represents the highest gross margin revenue stream in modern commerce.',
         'Traditional retail relied on physical slotting fees—charging brand managers thousands of rupees to place chips at eye level on checkout aisle shelves. Digital commerce has programmaticized this into real-time bidding for search keywords and category banners.',
@@ -182,7 +190,7 @@ export const PORTFOLIO_DATA = {
       readTime: '4 min read',
       category: 'Economics & Policy',
       excerpt: 'How applying Class 12 ratio analysis—Current Ratio, Debt-Equity, and Inventory Turnover—demystifies real corporate disclosures.',
-      image: '/src/assets/images/case_aviation_strategy_1793793277766.jpg',
+      image: caseAviation,
       content: [
         'Many students view Class 12 Accountancy as memorizing debit-credit journal entries for partnership dissolutions and forfeiture of shares. But once you open the 300-page Annual Report of Reliance Industries or Titan, the syllabus springs to life.',
         'The Management Discussion & Analysis (MD&A) section provides raw insight into macroeconomic tailwinds, currency volatility, and supply chain bottlenecks. The Notes to Financial Statements show the real impact of depreciation policies and contingent liabilities.',
